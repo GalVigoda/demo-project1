@@ -4,6 +4,11 @@ import './App.css';
 //import ReactDOM from 'react-dom';
 
 function App() {
+  function handleClick(e) {
+    e.preventDefault();
+    console.log('The link was clicked.');
+  }
+ 
   return (
     <div className="App">
       <header className="App-header">
@@ -16,18 +21,17 @@ function App() {
           type="textdd"
         />
       </form>
-
-           
-     
-        </p>
+      </p>
         <a
           className="App-link"
           href="index.html"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={handleClick}
         >
          click here to call
         </a>
+        
        {/* . React.createElement("p", null, `The current time is ${new Date().toLocaleString()}.`   */}
        
       </header>
