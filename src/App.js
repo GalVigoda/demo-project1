@@ -31,6 +31,7 @@ function App() {
         >
          click here to call
         </a>
+        Twilio.Device.setup(token);
         
        {/* . React.createElement("p", null, `The current time is ${new Date().toLocaleString()}.`   */}
        
