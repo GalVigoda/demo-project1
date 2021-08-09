@@ -21,7 +21,7 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>          
-          Please enter the number for Calling:
+          Please enter a phone number:
           <Form>
             <Form.Field>
               <Input
