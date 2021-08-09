@@ -14,5 +14,3 @@ call = client.calls.create(
 
 )
 print(call.sid)
-
-##523632205##
